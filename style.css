@@ -1,7 +1,15 @@
 body{
     display: flex;
     background-color: blanchedalmond;
+    /*background-image: url(./images.jpeg);*/
+
+    background-image: url(./Fundo.jpeg);
+    background-size: 1920px 999px;
+    background-repeat: no-repeat;
+    
 }
+
+
 
 .player, .inimigo {
     
@@ -10,16 +18,17 @@ body{
 
 .player {
     background: blue;
-    width: 100px;
-    height: 100px;
-    left: 100px;
+    top: 335px;
+    width: 50px;
+    height: 50px;
+    left: 415px;
     transition: 0.2s;
 }
 
 .inimigo {
     background: red;
-    width: 500px;
-    height: 500px;
-    top: 420px;
-    left: 1400px;
+    width: 100px;
+    height: 100px;
+    top: 775px;
+    left: 1365px;
 }
