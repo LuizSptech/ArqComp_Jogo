@@ -1,10 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
 body{
     display: flex;
     background-color: blanchedalmond;
     /*background-image: url(./images.jpeg);*/
 
     background-image: url(./Fundo.jpeg);
-    background-size: 1920px 999px;
+    background-size: 1920px 1080px;
     background-repeat: no-repeat;
     
 }
@@ -29,6 +33,33 @@ body{
     background: red;
     width: 100px;
     height: 100px;
-    top: 775px;
-    left: 1365px;
+    top: 830px;
+    left: 1355px;
+}
+
+
+.menu{
+    display: flex;
+    background-color: #0000008c;
+    position: relative;
+    backdrop-filter: blur(3px);
+    width: 1000px;
+    height: 500px;
+    left: 900px;
+    top: -6px;
+    
+}
+
+.menu #h1{
+    font-family: "Pixelify Sans", sans-serif;
+    position: relative;
+    left: 50px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.botao{
+    display: flex;
+    position: absolute;
 }
