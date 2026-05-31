@@ -15,24 +15,29 @@ body{
 
 
 
-.player, .inimigo {
+#player, .inimigo {
     
     position: absolute;
 }
 
-.player {
-    background: blue;
-    top: 335px;
-    width: 50px;
-    height: 50px;
-    left: 415px;
+#player {
+    
+    width: 130px;
+    height: 120px;
+
+    background-image: url("./Punk_idle.png");
+    top: 300px;
+    left: 400px;
     transition: 0.2s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .inimigo {
     background: red;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     top: 830px;
     left: 1355px;
 }

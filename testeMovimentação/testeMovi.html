@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ #player{
+    width: 32px;
+    height: 47px;
+
+    background-image: url("../Sprint/Protagonista/Punk_attack1.png");
+
+    background-position: 0px 0px;
+}
+    </style>
+</head>
+<body>
+    <div id="player"></div>
+</body>
+</html>
+
+<script>
+const player = document.getElementById("player");
+
+let frame = 0;
+
+setInterval(() => {
+
+    player.style.backgroundPosition =
+        `${frame * -32}px 0px`;
+
+    frame++;
+
+    if(frame > 3){
+        frame = 0;
+    }
+
+}, 600);
+</script>
