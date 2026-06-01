@@ -6,17 +6,40 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="fundo">
-    <button class="botao" onclick="attack()">Atacar</button>
-    <div id="player"></div>
-    <div class="inimigo"></div>
-    <div class="menu">
-        <div id="h1"></div>
+<body>
+    
+    
+  
+    
+    <div id="player">
+        <div id="mensagem_player"></div>
     </div>
     
+    
+    <div id="inimigo">
+        <div id="mensagem_inimigo"></div>
+    </div>
+    
+    
+    
+    <div class="menu">
+        <div id="h1"></div>
+        <button onclick="start()" id="botao">Começar Quizz</button>
+        <h2 id="enunciado"></h2>
+        <input type="button" id="Resposta1" onclick="Resposta('A')">
+        <input type="button" id="Resposta2" onclick="Resposta('B')">
+        <input type="button" id="Resposta3" onclick="Resposta('C')">
+        <input type="button" id="Resposta4" onclick="Resposta('D')">
+        <input type="button" id="Resposta5" onclick="Resposta('E')">
+
+
+    </div>
+
+
+<audio autoplay loop> <source src="My Hero Academia - All For One's Theme (HQ Cover).mp3"> </audio>    
+    <script src="script.js"></script>
 </body>
 </html>
-<script src="script.js"></script>
 
 
 
