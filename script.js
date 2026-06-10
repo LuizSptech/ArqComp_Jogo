@@ -324,6 +324,7 @@ function attack(){
     player.style.width = `${tamanho}px`
     player.style.height = `${tamanho}px`
     player.style.transform = "translate(910px, 400px)"
+    
  
     setTimeout(() => {
         player.style.transform = "translate(-1px, -1px)"
